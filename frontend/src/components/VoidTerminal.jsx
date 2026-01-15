@@ -16,7 +16,7 @@ const VoidTerminal = () => {
     
     try {
       // Talking to your Express Server on Port 3000
-      const response = await axios.get('http://localhost:3000/api/silence');
+      const response = await axios.get('https://project-silence.onrender.com/api/silence');
       
       const data = response.data;
       
